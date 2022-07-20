@@ -30,7 +30,7 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_TxSP4AcnEe2IY5HIFxbqZg" name="Código" type="IDENTIFIER" AttributeLinkTarget="_TxYWgAcnEe2IY5HIFxbqZg"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_Ztr84AcnEe2IY5HIFxbqZg" name="Tipo" AttributeLinkTarget="_ZttyEAcnEe2IY5HIFxbqZg"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_cPfLQAcnEe2IY5HIFxbqZg" name="Data de Aquisição" dataType="TIMESTAMP" AttributeLinkTarget="_cPgZYAcnEe2IY5HIFxbqZg"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_R8QLcAcoEe2IY5HIFxbqZg" name="Código" type="DISCRIMINATOR" AttributeLinkTarget="_R8TOwAcoEe2IY5HIFxbqZg"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_R8QLcAcoEe2IY5HIFxbqZg" name="Data" type="DISCRIMINATOR" AttributeLinkTarget="_R8TOwAcoEe2IY5HIFxbqZg"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_HKy1wAexEe2fvfH_RH1CJA" name="Físico" AttributeLinkTarget="_HK6KgAexEe2fvfH_RH1CJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_Jg05AAexEe2fvfH_RH1CJA" name="Temporal" AttributeLinkTarget="_Jg5xgAexEe2fvfH_RH1CJA"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_IdzD0AezEe2fvfH_RH1CJA" name="Participa" relationshipLink="_TL8okAezEe2fvfH_RH1CJA _NP9V0Ae0Ee2fvfH_RH1CJA"/>
@@ -687,7 +687,7 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_LIWJEQe0Ee2fvfH_RH1CJA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_LIWJEge0Ee2fvfH_RH1CJA" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LIWJEwe0Ee2fvfH_RH1CJA" points="[86, -11, -341, 295]$[427, -11, 0, 295]$[427, -281, 0, 25]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LIWJEwe0Ee2fvfH_RH1CJA" points="[86, 0, -341, 306]$[427, 0, 0, 306]$[427, -281, 0, 25]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_NP984Ae0Ee2fvfH_RH1CJA" type="4006" element="_NP9V0Ae0Ee2fvfH_RH1CJA" source="_KklUsAe0Ee2fvfH_RH1CJA" target="_Idzq4AezEe2fvfH_RH1CJA">
       <children xmi:type="notation:DecorationNode" xmi:id="_NP985Ae0Ee2fvfH_RH1CJA" type="6006">
@@ -698,8 +698,8 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_NP984Qe0Ee2fvfH_RH1CJA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_NP984ge0Ee2fvfH_RH1CJA" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NP984we0Ee2fvfH_RH1CJA" points="[10, 9, -32, 0]$[40, 8, -2, -1]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NP_yEAe0Ee2fvfH_RH1CJA" id="(0.8992248062015504,0.45)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NP984we0Ee2fvfH_RH1CJA" points="[13, 5, -42, -7]$[29, 12, -26, 0]$[52, 12, -3, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NP_yEAe0Ee2fvfH_RH1CJA" id="(0.9922480620155039,0.5083333333333333)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NP_yEQe0Ee2fvfH_RH1CJA" id="(0.06593406593406594,0.45652173913043476)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_RW8ZUAe0Ee2fvfH_RH1CJA" type="4007" element="_RW6kIAe0Ee2fvfH_RH1CJA" source="_L7FDAAezEe2fvfH_RH1CJA" target="_RW2SsQe0Ee2fvfH_RH1CJA">
