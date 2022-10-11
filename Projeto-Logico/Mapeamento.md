@@ -1,1 +1,0 @@
-# Mapeamento Lógico
