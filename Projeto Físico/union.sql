@@ -1,0 +1,8 @@
+-- Projetar o nome de todas as pessoas que são apenas funcionários ou clientes.
+SELECT C.NOME 
+FROM CLIENTE C
+WHERE C.NOME NOT IN (SELECT NOME FROM FUNCIONARIO)
+UNION 
+SELECT F.NOME 
+FROM FUNCIONARIO F
+WHERE F.NOME NOT IN (SELECT NOME FROM CLIENTE)
