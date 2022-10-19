@@ -1,3 +1,4 @@
+-- projetar os mentorandos de um funcionário que trabalham no mesmo setor que ele
 SELECT F.NOME
 FROM FUNCIONARIO F
 WHERE F.MENTOR IS NOT NULL AND F.CPF IN (
@@ -9,5 +10,3 @@ WHERE F.MENTOR IS NOT NULL AND F.CPF IN (
         WHERE T2.CPF = F.MENTOR)
 )
 )
-
--- projetar os mentorandos de um funcionário que trabalham no mesmo setor que ele
