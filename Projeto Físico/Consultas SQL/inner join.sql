@@ -1,9 +1,11 @@
-/* 
-Projetar o [Local de Destino] e a [Data de Destino] de uma Passagem juntamente com o [Nome do Cliente] que 
-adquiriu essa passagem e o [Nome do Funcionário] que realizou a venda da mesma. Essa Passagem precisa 
-necessariamente já ter sido utilizada para uma Viagem, o Funcionário que vendeu a Passagem não pode ser 
-gerente de um Setor que seja da categoria Viagem e o Cliente que detém essa Passagem não pode ter realizado a compra de 
-mais do que 3 passagens. Isso deve ser exibido em uma ordem decrescente de acordo com a [Data de Destino] da Passagem.
+/*
+Descrição da consulta
+
+Projetar o Local de Destino e a Data de Destino de uma Passagem juntamente com o nome do Cliente que adquiriu 
+essa Passagem e o nome do Funcionário que realizou a venda da mesma. Essa Passagem precisa necessariamente já 
+ter sido utilizada em uma Viagem, o Funcionário que vendeu a Passagem não pode ser gerente de um Setor que s-
+eja da categoria 'VIAGEM' e o Cliente que detém essa Passagem não pode ter realizado a compra de mais do que 
+2 passagens. Isso deve ser exibido em uma ordem decrescente de acordo com a Data de Destino da Passagem.
 */
 
 SELECT P.LOCAL_DESTINO AS "LOCAL DE DESTINO", P.DATA_DESTINO AS "DATA", C.NOME AS "CLIENTE", F.NOME AS "FUNCIONÁRIO"
