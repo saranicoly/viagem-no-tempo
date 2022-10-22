@@ -71,7 +71,7 @@ WHERE (P1.LOCAL_DESTINO, EXTRACT(YEAR FROM P1.DATA_DESTINO)) =
 	FROM PASSAGEM P2
 	WHERE P2.CODIGO_RESERVA = 14600);
 	
--- (Subconsulta tabela): Projetar todos os mentorandos os quais trabalham nos mesmo setor que seu mentor.
+-- (Subconsulta tabela): Projetar todas as dados das missões que o funcionário que gerencia um setor participou.
 SELECT *
 FROM MISSAO M
 WHERE M.CODIGO IN(
